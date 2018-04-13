@@ -3,11 +3,9 @@
 
 #include <vector>
 
-using namespace std;
-
 class Universe {
 public:
-  static int CountAllStars(vector<int>& galaxies);
+  static int CountAllStars(std::vector<int>& galaxies);
 };
 
 #endif // TEST_EXERCICES_UNIVERSE_H_
